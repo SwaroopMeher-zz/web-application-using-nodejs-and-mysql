@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>ALBUM</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+
+	<div class="limiter">
+		<div class="container-login1001" style="background-image: url('images/b1.jpg');">
+
+				<form class="login1001-form validate-form" method="POST" action="/delete_a">
+					<span class="login1001-form-title p-b-20 p-t-20">
+					ALBUM
+					</span>
+
+          <div class="wrap-input1001 validate-input" data-validate = "Enter ID">
+            <input class="input1001" type="text" name="id_a" placeholder="ID of the Album">
+            <span class="focus-input100" ></span>
+          </div>
+
+          <div class="container-login100-form-btn">
+            <button class="login100-form-btn">
+            Delete
+            </button>
+          </div>
+            <div class="result r p-b-10 ">
+              <span class="result p-b-10"><%=r%> <%=nda%></span>
+            </div>
+
+				</form>
+
+				<div class="act" style="margin-top:150px;">
+          <a href="/albums" class="button login100-form-btn" style="display:inline;padding-left: 30px;padding-right: 20px;padding-top: 15px;margin:30px;min-width:120px;" >
+	       Display
+         </a>
+         <a href="/add_a" class="button login100-form-btn" style="display:inline;padding-left: 40px;padding-right: 20px;padding-top: 15px;margin:30px;" >
+        Add
+        </a>
+        <a href="/update_a" class="button login100-form-btn" style="display:inline;padding-left: 30px;padding-right: 20px;padding-top: 15px;margin:30px;" >
+         Update
+       </a>
+
+	        <a href="/option" class="button login100-form-btn" style="display:inline;padding-left: 30px;padding-right: 20px;padding-top: 15px;margin:30px;" >
+	         Options
+         </a>
+        </div>
+
+				<div class="footer">
+				  <marquee behavior="scroll" direction="left" scrollamount="10">Project done by :  M.SWAROOP(Project Head),120316246_______P.Harish,1210316440_______ Ajay,1210316402_______Saka,1210316432. </marquee>
+				</div>
+
+    	</div>
+		</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js"></script>
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
